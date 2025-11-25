@@ -1991,8 +1991,7 @@
       "riskLabel": "ناهنجاری"
     },
     "pillText": "📍 Iran | 📱 Android (Iran)",
-    "color": "var(--xf-orange)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"araghchi\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">ناهنجاری</strong><br><span style=\"opacity:0.9\">اتصال مستقیم در ایران غیرممکن است. دلایل: سیم‌کارت سفید، تانلینگ یا شماره ۹۸+.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Iran</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1932851846</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۲/۷/۱۲, ۶:۳۰:۰۵</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1853610679577546752/F7Bk1Sfm_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-orange)"
   },
   "ypezeshkian": {
     "data": {
@@ -2027,8 +2026,7 @@
       "riskLabel": "احتیاط"
     },
     "pillText": "📱 نامشخص",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"drpezeshkian\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">نامشخص</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">3313128290</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۴/۵/۲۱, ۱۱:۳۵:۰۶</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1845700299782045704/nOuFVGa2_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "ZkNezhad": {
     "data": {
@@ -2760,7 +2758,8 @@
       "riskLabel": "طبیعی"
     },
     "pillText": "📍 United Kingdom | 📱 Android (Iran)",
-    "color": "var(--xf-green)"
+    "color": "var(--xf-green)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"abdollahram\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United Kingdom</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">3131466466</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۴/۱/۱۴, ۱:۴۸:۳۴</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1986710933951930368/sfyEDU3z_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
   },
   "AbdolahBabakha1": {
     "data": {
@@ -4332,8 +4331,7 @@
       "riskLabel": "احتیاط"
     },
     "pillText": "📍 Saudi Arabia | 📱 iPhone (Saudi Arabia)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"This_Ewan\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Saudi Arabia</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (Saudi Arabia)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1501951983099400192</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۰/۱۲/۱۹, ۱۹:۳۴:۱۱</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">6x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1525069582385532928/eLtik1lu_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "Nadav_Eyal": {
     "data": {
@@ -4351,8 +4349,7 @@
       "riskLabel": "احتیاط"
     },
     "pillText": "📍 United States | 📱 Android (United States)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"Nadav_Eyal\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United States</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (United States)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">2657146262</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۳/۴/۲۷, ۲۱:۱۵:۳۵</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1701584754376691712/kLjbpoy6_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "mmoeeni2": {
     "data": {
@@ -4370,8 +4367,7 @@
       "riskLabel": "طبیعی"
     },
     "pillText": "📍 United States | 📱 Android (Iran)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"mmoeeni2\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United States</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1632285107380948993</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۱/۱۲/۱۴, ۱۱:۱۱:۲۶</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1632285477725429761/kE_tH-YY_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "Mohamadaliyar": {
     "data": {
@@ -4389,8 +4385,7 @@
       "riskLabel": "هشدار"
     },
     "pillText": "📍 Germany | 📱 iPhone (United States)",
-    "color": "var(--xf-red)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"Mohamadaliyar\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Germany</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (United States)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1923697022</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۲/۷/۹, ۱۸:۲۳:۱۹</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1954728023334215681/IDlfSAWu_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-red)"
   },
   "SadeYuval": {
     "data": {
@@ -4408,8 +4403,7 @@
       "riskLabel": "امن"
     },
     "pillText": "📍 Israel | 📱 Android (Israel)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">امن</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"SadeYuval\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:5%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Israel</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Israel)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">934739505986310144</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۶/۹/۵, ۱۴:۳۳:۵۹</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1884217045593526272/PSZafUUk_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "QassemsQassem": {
     "data": {
@@ -4427,8 +4421,7 @@
       "riskLabel": "هشدار"
     },
     "pillText": "📍 Lebanon | 📱 iPhone (Lebanon)",
-    "color": "var(--xf-red)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"QassemsQassem\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Lebanon</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (Lebanon)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">567470370</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۱/۲/۱۱, ۲۱:۴۹:۰۴</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1950870780528734208/UFD2pg75_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-red)"
   },
   "alon_mizrahi": {
     "data": {
@@ -4446,8 +4439,7 @@
       "riskLabel": "امن"
     },
     "pillText": "📍 United Kingdom | 📱 Android (United States)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">امن</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"alon_mizrahi\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:5%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United Kingdom</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (United States)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1483392523599024131</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۰/۱۰/۲۸, ۱۴:۲۵:۲۱</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1778293598695346176/GeX6Sl3z_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "Jannessarii": {
     "data": {
@@ -4465,8 +4457,7 @@
       "riskLabel": "احتیاط"
     },
     "pillText": "📍 Germany | 📱 Android (Germany)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"Jannessarii\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Germany</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Germany)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">3314223935</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۴/۳/۱۹, ۵:۰۹:۴۱</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1857689975875072000/NENdFRfF_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "hesamodinbarati": {
     "data": {
@@ -4484,8 +4475,7 @@
       "riskLabel": "ناهنجاری"
     },
     "pillText": "📍 غرب آسیا | 📱 Android (West Asia)",
-    "color": "var(--xf-orange)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"hesamodinbarati\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">ناهنجاری</strong><br><span style=\"opacity:0.9\">اتصال مستقیم در ایران غیرممکن است. دلایل: سیم‌کارت سفید، تانلینگ یا شماره ۹۸+.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 غرب آسیا</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (West Asia)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1849735525042638848</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۳/۸/۴, ۱۲:۲۱:۴۷</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1849749661432635392/wov1rmC5_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-orange)"
   },
   "Talaforoosh": {
     "data": {
@@ -4503,8 +4493,7 @@
       "riskLabel": "طبیعی"
     },
     "pillText": "📍 Netherlands | 📱 Android (Iran)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"Talaforoosh\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Netherlands</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1773318002181574656</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۳/۱/۹, ۱۵:۲۵:۴۴</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">3x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1873459448817000448/pOwybWeu_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "kenchiikuka": {
     "data": {
@@ -4522,8 +4511,7 @@
       "riskLabel": "طبیعی"
     },
     "pillText": "📍 United States | 📱 Android (Iran)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"kenchiikuka\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United States</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1558935087571509248</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۱/۵/۲۴, ۲:۲۴:۳۵</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">5x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1576335577695363074/9ACDvy_p_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "Mimkhazaei12": {
     "data": {
@@ -4541,8 +4529,7 @@
       "riskLabel": "ناهنجاری"
     },
     "pillText": "📍 غرب آسیا | 📱 Android (West Asia)",
-    "color": "var(--xf-orange)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"Mimkhazaei12\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">هویت پنهان</strong><br><span style=\"opacity:0.9\">فارسی‌زبان در «غرب آسیا» با اتصال مستقیم. احتمال قوی: سیم‌کارت سفید یا اینترنت دولتی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 غرب آسیا</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (West Asia)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1845924197635080192</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۳/۷/۲۳, ۲۳:۵۷:۳۵</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">2x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1901186100812804099/dDBTS51e_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-orange)"
   },
   "iSegar0": {
     "data": {
@@ -4560,8 +4547,7 @@
       "riskLabel": "طبیعی"
     },
     "pillText": "📍 Sweden | 📱 Android (Iran)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"iSegar0\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Sweden</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1881235205652123649</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۳/۱۱/۱, ۱۰:۳۰:۰۹</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1911444912328802304/2EUyZghz_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "ckuck": {
     "data": {
@@ -4579,8 +4565,7 @@
       "riskLabel": "امن"
     },
     "pillText": "📍 United States | 📱 iPhone (United States)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">امن</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"ckuck\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:5%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United States</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (United States)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">16105846</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۸۷/۶/۱۳, ۵:۲۱:۱۶</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1820899960725938176/w-DXvDUZ_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "MiladShahidi": {
     "data": {
@@ -4598,8 +4583,7 @@
       "riskLabel": "امن"
     },
     "pillText": "📍 United Kingdom | 📱 Android (United Kingdom)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">امن</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"MiladShahidi\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:5%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United Kingdom</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (United Kingdom)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">2177478123</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۲/۸/۲۱, ۳:۰۸:۰۷</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1946972294103855105/IxlPi7ww_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "hadanmoosavi": {
     "data": {
@@ -4617,8 +4601,7 @@
       "riskLabel": "احتیاط"
     },
     "pillText": "📍 Japan | 📱 Web",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"hadanmoosavi\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Japan</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Web</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1307652154321244162</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۹/۶/۳۰, ۱۶:۳۶:۱۷</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">4x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1845780533847932939/U1mkz0Om_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "aligholami2024": {
     "data": {
@@ -4636,8 +4619,7 @@
       "riskLabel": "طبیعی"
     },
     "pillText": "📍 France | 📱 Android (Iran)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"aligholami2024\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 France</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1842157392919957504</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۳/۷/۱۳, ۱۴:۲۹:۱۲</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">3x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1842160437812506624/0il4YOlq_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "FGhoddoussi": {
     "data": {
@@ -4655,8 +4637,7 @@
       "riskLabel": "امن"
     },
     "pillText": "📍 United States | 📱 Android (United States)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">امن</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"FGhoddoussi\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:5%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United States</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (United States)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">850414665926660096</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۶/۱/۱۸, ۲۲:۵۷:۱۱</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1376066205577064450/Il2IzfdR_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "nowgnna": {
     "data": {
@@ -4674,8 +4655,7 @@
       "riskLabel": "ناهنجاری"
     },
     "pillText": "📍 غرب آسیا | 📱 Android (West Asia)",
-    "color": "var(--xf-orange)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"nowgnna\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">هویت پنهان</strong><br><span style=\"opacity:0.9\">فارسی‌زبان در «غرب آسیا» با اتصال مستقیم. احتمال قوی: سیم‌کارت سفید یا اینترنت دولتی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 غرب آسیا</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (West Asia)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">592766041</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۱/۳/۸, ۱۸:۴۷:۲۹</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">8x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1722312203032809472/eheLk3IX_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-orange)"
   },
   "hadi_sobhanian": {
     "data": {
@@ -4693,8 +4673,7 @@
       "riskLabel": "ناهنجاری"
     },
     "pillText": "📍 Iran | 📱 Android (Iran)",
-    "color": "var(--xf-orange)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"hadi_sobhanian\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">ناهنجاری</strong><br><span style=\"opacity:0.9\">اتصال مستقیم در ایران غیرممکن است. دلایل: سیم‌کارت سفید، تانلینگ یا شماره ۹۸+.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Iran</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1225844333510873093</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۸/۱۱/۱۸, ۲۱:۴۱:۱۴</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1749162539571658752/qLEXTSv2_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-orange)"
   },
   "GretaThunberg": {
     "data": {
@@ -4710,8 +4689,7 @@
       "riskLabel": "هشدار"
     },
     "pillText": "📱 Web",
-    "color": "var(--xf-red)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"GretaThunberg\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Web</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1006419421244678144</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۷/۳/۲۲, ۱۰:۴۴:۲۳</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1459213153301053442/rL5hhpAI_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-red)"
   },
   "gholami_farzane": {
     "data": {
@@ -4729,8 +4707,7 @@
       "riskLabel": "امن"
     },
     "pillText": "📍 Italy | 📱 iPhone (Italy)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">امن</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"gholami_farzane\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:5%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Italy</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (Italy)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1269891542862360582</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۹/۳/۱۹, ۱۱:۴۹:۱۳</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1779396141873856512/-DHpb_ZF_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "NasaFarsiParody": {
     "data": {
@@ -4748,8 +4725,7 @@
       "riskLabel": "احتیاط"
     },
     "pillText": "📍 Italy | 📱 iPhone (Italy)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"NasaFarsiParody\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Italy</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (Italy)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1148714059073818625</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۸/۴/۱۹, ۲:۳۲:۲۸</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">3x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1336936036472135680/alcRBQHi_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "shid_tv": {
     "data": {
@@ -4767,8 +4743,7 @@
       "riskLabel": "ناهنجاری"
     },
     "pillText": "📍 Iran | 📱 Android (Iran)",
-    "color": "var(--xf-orange)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"shid_tv\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">ناهنجاری</strong><br><span style=\"opacity:0.9\">اتصال مستقیم در ایران غیرممکن است. دلایل: سیم‌کارت سفید، تانلینگ یا شماره ۹۸+.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Iran</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1567834327320301569</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۱/۶/۱۷, ۱۵:۴۷:۳۰</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1604082688977248256/pKDJMLmR_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-orange)"
   },
   "IRIMFA_SPOX": {
     "data": {
@@ -4786,8 +4761,7 @@
       "riskLabel": "ناهنجاری"
     },
     "pillText": "📍 Iran | 📱 iPhone (Switzerland)",
-    "color": "var(--xf-orange)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"IRIMFA_SPOX\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">ناهنجاری</strong><br><span style=\"opacity:0.9\">اتصال مستقیم در ایران غیرممکن است. دلایل: سیم‌کارت سفید، تانلینگ یا شماره ۹۸+.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Iran</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (Switzerland)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1541363672538386432</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۱/۴/۶, ۱۴:۴۲:۴۵</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">3x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1841571331638206464/OteZMaaL_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-orange)"
   },
   "alieaayaser": {
     "data": {
@@ -4805,8 +4779,7 @@
       "riskLabel": "طبیعی"
     },
     "pillText": "📍 United Arab Emirates | 📱 Android (Iran)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"alieaayaser\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United Arab Emirates</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1661671707034173446</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۲/۳/۴, ۱۳:۲۳:۴۸</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">3x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1898505856683020288/XsMMcd-E_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "binnahar85": {
     "data": {
@@ -4824,8 +4797,7 @@
       "riskLabel": "امن"
     },
     "pillText": "📍 Qatar | 📱 Web",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">امن</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"binnahar85\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:5%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Qatar</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Web</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">2549754319</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۳/۳/۱۶, ۱۵:۱۳:۳۶</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1758891159374446592/Ipon_EWD_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "IRIMFA": {
     "data": {
@@ -4842,8 +4814,7 @@
       "riskLabel": "احتیاط"
     },
     "pillText": "📱 نامشخص",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"IRIMFA\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">نامشخص</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1051061858759831553</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۷/۷/۲۱, ۱۴:۱۷:۲۹</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1983069232091824128/f34g8fjk_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "IRIMFA_EN": {
     "data": {
@@ -4860,8 +4831,7 @@
       "riskLabel": "احتیاط"
     },
     "pillText": "📱 نامشخص",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"IRIMFA_EN\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">نامشخص</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1051066584100429824</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۷/۷/۲۱, ۱۴:۳۶:۱۶</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1990283853248827392/gN5Er70G_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "TakhtRavanchi": {
     "data": {
@@ -4879,8 +4849,7 @@
       "riskLabel": "ناهنجاری"
     },
     "pillText": "📍 Iran | 📱 Android (Iran)",
-    "color": "var(--xf-orange)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"TakhtRavanchi\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">ناهنجاری</strong><br><span style=\"opacity:0.9\">اتصال مستقیم در ایران غیرممکن است. دلایل: سیم‌کارت سفید، تانلینگ یا شماره ۹۸+.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Iran</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1222260547967733768</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۸/۱۱/۹, ۰:۲۰:۲۲</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1837532258808328192/zX5_A4hL_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-orange)"
   },
   "SKhatibzadeh": {
     "data": {
@@ -4898,8 +4867,7 @@
       "riskLabel": "امن"
     },
     "pillText": "📍 Belarus | 📱 Android (Iran)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">امن</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"SKhatibzadeh\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:5%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Belarus</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">3131334417</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۴/۱/۱۳, ۲۲:۵۴:۰۸</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1542164984716738560/ic1D5hrl_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "jalalzade_ir": {
     "data": {
@@ -4917,8 +4885,7 @@
       "riskLabel": "ناهنجاری"
     },
     "pillText": "📍 Iran | 📱 Android (Iran)",
-    "color": "var(--xf-orange)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"jalalzade_ir\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">ناهنجاری</strong><br><span style=\"opacity:0.9\">اتصال مستقیم در ایران غیرممکن است. دلایل: سیم‌کارت سفید، تانلینگ یا شماره ۹۸+.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Iran</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1840881512780349440</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۳/۷/۱۰, ۱:۵۹:۴۲</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1842280889226579968/IdT8WC1m_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-orange)"
   },
   "Gharibabadi": {
     "data": {
@@ -4936,8 +4903,7 @@
       "riskLabel": "طبیعی"
     },
     "pillText": "📍 Germany | 📱 Android (Iran)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"Gharibabadi\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Germany</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1035232364950114304</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۷/۶/۸, ۲۲:۵۶:۴۴</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1268875636036304902/Qdkdl8AK_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "Amirabdolahian": {
     "data": {
@@ -4953,8 +4919,7 @@
       "riskLabel": "هشدار"
     },
     "pillText": "📱 نامشخص",
-    "color": "var(--xf-red)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"Amirabdolahian\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">نامشخص</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">869614047838208000</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۶/۳/۹, ۲۲:۲۸:۴۰</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/980405013821509633/PWN7GAYl_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-red)"
   },
   "Drvelayati_ir": {
     "data": {
@@ -4972,8 +4937,7 @@
       "riskLabel": "ناهنجاری"
     },
     "pillText": "📍 Iran | 📱 Web",
-    "color": "var(--xf-orange)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"Drvelayati_ir\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">ناهنجاری</strong><br><span style=\"opacity:0.9\">اتصال مستقیم در ایران غیرممکن است. دلایل: سیم‌کارت سفید، تانلینگ یا شماره ۹۸+.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Iran</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Web</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1864709943875764224</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۳/۹/۱۵, ۲۰:۰۴:۴۲</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1912411731793428480/I168qHMu_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-orange)"
   },
   "raisi_com": {
     "data": {
@@ -4990,8 +4954,7 @@
       "riskLabel": "احتیاط"
     },
     "pillText": "📱 نامشخص",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"raisi_com\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">نامشخص</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1366407965075505156</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۹/۱۲/۱۱, ۱۸:۵۰:۳۶</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">2x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1399652437623980033/nxttDIoU_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "HassanRouhani": {
     "data": {
@@ -5007,8 +4970,7 @@
       "riskLabel": "هشدار"
     },
     "pillText": "📱 Web",
-    "color": "var(--xf-red)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"HassanRouhani\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Web</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1404590618</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۲/۲/۱۵, ۱۳:۵۶:۳۳</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/830606478419619840/YzhAGsju_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-red)"
   },
   "hmajd": {
     "data": {
@@ -5026,8 +4988,7 @@
       "riskLabel": "امن"
     },
     "pillText": "📍 United States | 📱 iPhone (United States)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">امن</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"hmajd\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:5%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United States</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (United States)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">48878503</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۸۸/۳/۳۰, ۵:۰۴:۲۵</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/743974325586386944/XQQkSwRW_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "miryousefi": {
     "data": {
@@ -5045,8 +5006,7 @@
       "riskLabel": "ناهنجاری"
     },
     "pillText": "📍 Iran | 📱 iPhone (United States)",
-    "color": "var(--xf-orange)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"miryousefi\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">ناهنجاری</strong><br><span style=\"opacity:0.9\">اتصال مستقیم در ایران غیرممکن است. دلایل: سیم‌کارت سفید، تانلینگ یا شماره ۹۸+.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Iran</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (United States)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">244744787</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۸۹/۱۱/۱۰, ۵:۰۶:۲۵</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1102634804179275776/qXbNiHHi_400x400.png\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-orange)"
   },
   "MaymoonMast": {
     "data": {
@@ -5064,8 +5024,7 @@
       "riskLabel": "هشدار"
     },
     "pillText": "📍 United Kingdom | 📱 iPhone (United Kingdom)",
-    "color": "var(--xf-red)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"MaymoonMast\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United Kingdom</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (United Kingdom)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1450038539283013632</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۰/۷/۲۶, ۱۳:۲۸:۳۹</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">3x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1927706797852209153/Cxw95h-M_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-red)"
   },
   "Hatefna": {
     "data": {
@@ -5083,8 +5042,7 @@
       "riskLabel": "ناهنجاری"
     },
     "pillText": "📍 Iran | 📱 Android (Iran)",
-    "color": "var(--xf-orange)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"Hatefna\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">ناهنجاری</strong><br><span style=\"opacity:0.9\">اتصال مستقیم در ایران غیرممکن است. دلایل: سیم‌کارت سفید، تانلینگ یا شماره ۹۸+.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Iran</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">872547103188320256</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۶/۳/۱۸, ۰:۴۳:۳۵</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1771198354237648896/1Y8WHUmj_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-orange)"
   },
   "L0mpan": {
     "data": {
@@ -5102,8 +5060,7 @@
       "riskLabel": "احتیاط"
     },
     "pillText": "📍 North America | 📱 Android (North America)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"L0mpan\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 North America</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (North America)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1808189531646205952</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۳/۴/۱۲, ۲۰:۵۳:۲۶</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1857182993992888320/Im8H8zm8_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "Amir_Cryptotr": {
     "data": {
@@ -5121,8 +5078,7 @@
       "riskLabel": "هشدار"
     },
     "pillText": "📍 Europe | 📱 iPhone (North America)",
-    "color": "var(--xf-red)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"Amir_Cryptotr\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Europe</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (North America)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1141720339</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۱/۱۱/۱۴, ۱۰:۲۶:۱۷</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">9x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1803973583732867072/KRTazRpS_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-red)"
   },
   "sinainjust": {
     "data": {
@@ -5140,8 +5096,7 @@
       "riskLabel": "هشدار"
     },
     "pillText": "📍 Europe | 📱 iPhone (North America)",
-    "color": "var(--xf-red)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"sinainjust\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Europe</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (North America)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">818986793064419328</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۵/۱۰/۲۲, ۴:۳۴:۰۲</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">2x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1836655014456004608/mfrKyh4U_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-red)"
   },
   "MikeKoroji": {
     "data": {
@@ -5159,8 +5114,7 @@
       "riskLabel": "احتیاط"
     },
     "pillText": "📍 United States | 📱 iPhone (United States)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"MikeKoroji\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United States</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (United States)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1937025723241533440</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۴/۴/۲, ۹:۲۲:۰۰</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">2x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1943483987990843395/UjQJUTEH_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "RADOCLUB": {
     "data": {
@@ -5178,8 +5132,7 @@
       "riskLabel": "هشدار"
     },
     "pillText": "📍 United States | 📱 iPhone (United Kingdom)",
-    "color": "var(--xf-red)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"RADOCLUB\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United States</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (United Kingdom)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1439001331361013766</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۰/۶/۲۷, ۳:۳۰:۴۹</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1614663846374817794/NF9SXOW6_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-red)"
   },
   "Tanha_5566": {
     "data": {
@@ -5197,8 +5150,7 @@
       "riskLabel": "طبیعی"
     },
     "pillText": "📍 Europe | 📱 Android (West Asia)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"Tanha_5566\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Europe</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (West Asia)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1312282910565826560</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۹/۷/۱۲, ۱۰:۱۷:۰۵</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">13x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1874048440377671680/uYb94W1Z_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "thetwelfth_Imam": {
     "data": {
@@ -5216,8 +5168,7 @@
       "riskLabel": "طبیعی"
     },
     "pillText": "📍 Germany | 📱 Android (Iran)",
-    "color": "var(--xf-green)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"thetwelfth_Imam\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Germany</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1096900507518541825</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۷/۱۱/۲۸, ۲:۰۳:۵۵</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1404704563064680450/rqNHOqJe_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "color": "var(--xf-green)"
   },
   "Teeegra": {
     "data": {
@@ -5235,7 +5186,848 @@
       "riskLabel": "هشدار"
     },
     "pillText": "📍 North America | 📱 Android (North America)",
+    "color": "var(--xf-red)"
+  },
+  "seramo_ir": {
+    "data": {
+      "country": "Finland",
+      "countryCode": "Finland",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "618168793",
+      "created": "۱۳۹۱/۴/۵, ۱۹:۳۲:۵۹",
+      "renamed": 1,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1234112615741362176/qK7fFkZU_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 Finland | 📱 Android (Iran)",
+    "color": "var(--xf-green)"
+  },
+  "Ario1401": {
+    "data": {
+      "country": "Europe",
+      "countryCode": "Europe",
+      "device": "iPhone",
+      "deviceFull": "iPhone (Europe)",
+      "id": "1613903983030026240",
+      "created": "۱۴۰۱/۱۰/۲۳, ۱۷:۵۱:۲۴",
+      "renamed": 1,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1794722694983757824/8GKhaeY3_400x400.jpg",
+      "riskLabel": "احتیاط"
+    },
+    "pillText": "📍 Europe | 📱 iPhone (Europe)",
+    "color": "var(--xf-green)"
+  },
+  "Mohsen_935": {
+    "data": {
+      "country": "Netherlands",
+      "countryCode": "Netherlands",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "450673686",
+      "created": "۱۳۹۰/۱۰/۹, ۱۸:۰۳:۱۹",
+      "renamed": 1,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1758866957502205952/vcgxnPSF_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 Netherlands | 📱 Android (Iran)",
+    "color": "var(--xf-green)"
+  },
+  "kymya10602": {
+    "data": {
+      "country": "Iran",
+      "countryCode": "Iran",
+      "device": "iPhone",
+      "deviceFull": "iPhone (United States)",
+      "id": "1941886362447159296",
+      "created": "۱۴۰۴/۴/۱۵, ۱۹:۱۶:۵۴",
+      "renamed": 0,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1941887479621079040/qgqFlsJ7_400x400.jpg",
+      "riskLabel": "ناهنجاری"
+    },
+    "pillText": "📍 Iran | 📱 iPhone (United States)",
+    "color": "var(--xf-orange)"
+  },
+  "YaarGhadimi": {
+    "data": {
+      "country": "Germany",
+      "countryCode": "Germany",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "893757772025798656",
+      "created": "۱۳۹۶/۵/۱۴, ۱۳:۲۷:۱۲",
+      "renamed": 6,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1911091475804262400/VSuc7pkN_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 Germany | 📱 Android (Iran)",
+    "color": "var(--xf-green)"
+  },
+  "Dadylongleggpv": {
+    "data": {
+      "country": "United States",
+      "countryCode": "United States",
+      "device": "iPhone",
+      "deviceFull": "iPhone (United States)",
+      "id": "1638669060241076224",
+      "created": "۱۴۰۲/۱/۳, ۱:۵۹:۳۳",
+      "renamed": 1,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1937101980192686080/rx_DE8IU_400x400.jpg",
+      "riskLabel": "هشدار"
+    },
+    "pillText": "📍 United States | 📱 iPhone (United States)",
+    "color": "var(--xf-red)"
+  },
+  "ForEveryBd": {
+    "data": {
+      "country": "Europe",
+      "countryCode": "Europe",
+      "device": "Android",
+      "deviceFull": "Android (Europe)",
+      "id": "2613396403",
+      "created": "۱۳۹۳/۴/۱۸, ۱۵:۳۹:۱۶",
+      "renamed": 13,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1591586730360160257/BLBN2L5K_400x400.jpg",
+      "riskLabel": "احتیاط"
+    },
+    "pillText": "📍 Europe | 📱 Android (Europe)",
+    "color": "var(--xf-green)"
+  },
+  "LiberdadeMulher": {
+    "data": {
+      "country": "غرب آسیا",
+      "countryCode": "West Asia",
+      "device": "iPhone",
+      "deviceFull": "iPhone (West Asia)",
+      "id": "1580237113592774658",
+      "created": "۱۴۰۱/۷/۲۰, ۲۰:۱۱:۱۸",
+      "renamed": 0,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1933023310008258560/uQ8ifAW-_400x400.jpg",
+      "riskLabel": "ناهنجاری"
+    },
+    "pillText": "📍 غرب آسیا | 📱 iPhone (West Asia)",
+    "color": "var(--xf-orange)"
+  },
+  "Schahrzad_b": {
+    "data": {
+      "country": "Switzerland",
+      "countryCode": "Switzerland",
+      "device": "iPhone",
+      "deviceFull": "iPhone (Switzerland)",
+      "id": "407476218",
+      "created": "۱۳۹۰/۸/۱۷, ۷:۲۸:۱۷",
+      "renamed": 1,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1820563845141630976/2r5Wer9A_400x400.jpg",
+      "riskLabel": "احتیاط"
+    },
+    "pillText": "📍 Switzerland | 📱 iPhone (Switzerland)",
+    "color": "var(--xf-green)"
+  },
+  "KERESHME5": {
+    "data": {
+      "country": "Finland",
+      "countryCode": "Finland",
+      "device": "Web",
+      "deviceFull": "Web",
+      "id": "1210279774288924672",
+      "created": "۱۳۹۸/۱۰/۵, ۲۲:۵۴:۱۶",
+      "renamed": 2,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1428493893356687364/JAlUzL2g_400x400.jpg",
+      "riskLabel": "هشدار"
+    },
+    "pillText": "📍 Finland | 📱 Web",
+    "color": "var(--xf-red)"
+  },
+  "caljon2025": {
+    "data": {
+      "country": "Europe",
+      "countryCode": "Europe",
+      "device": "iPhone",
+      "deviceFull": "iPhone (North America)",
+      "id": "1946445594970755072",
+      "created": "۱۴۰۴/۴/۲۸, ۹:۱۳:۱۷",
+      "renamed": 1,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1946626889499418624/dkrIm4VP_400x400.jpg",
+      "riskLabel": "هشدار"
+    },
+    "pillText": "📍 Europe | 📱 iPhone (North America)",
+    "color": "var(--xf-red)"
+  },
+  "ZardalooFarangi": {
+    "data": {
+      "country": "Germany",
+      "countryCode": "Germany",
+      "device": "iPhone",
+      "deviceFull": "iPhone (Italy)",
+      "id": "1492970456030326785",
+      "created": "۱۴۰۰/۱۱/۲۵, ۰:۴۵:۲۴",
+      "renamed": 3,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1988718273114812416/CaTrLNXB_400x400.jpg",
+      "riskLabel": "احتیاط"
+    },
+    "pillText": "📍 Germany | 📱 iPhone (Italy)",
+    "color": "var(--xf-green)"
+  },
+  "catwithbitcoin": {
+    "data": {
+      "country": "Germany",
+      "countryCode": "Germany",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "1800213608250355712",
+      "created": "۱۴۰۳/۳/۲۱, ۲۰:۳۹:۲۰",
+      "renamed": 2,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1940100697262895105/PlPppIK-_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 Germany | 📱 Android (Iran)",
+    "color": "var(--xf-green)"
+  },
+  "metheredwine": {
+    "data": {
+      "country": "Finland",
+      "countryCode": "Finland",
+      "device": "Web",
+      "deviceFull": "Web",
+      "id": "960603661310275587",
+      "created": "۱۳۹۶/۱۱/۱۶, ۲۳:۲۸:۵۴",
+      "renamed": 5,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1987260999875866624/0MAuTtU__400x400.jpg",
+      "riskLabel": "هشدار"
+    },
+    "pillText": "📍 Finland | 📱 Web",
+    "color": "var(--xf-red)"
+  },
+  "DauiiiNaser": {
+    "data": {
+      "country": "Finland",
+      "countryCode": "Finland",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "1732322736054190080",
+      "created": "۱۴۰۲/۹/۱۵, ۱۲:۲۵:۱۵",
+      "renamed": 1,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1732323778749661184/iv_Rvj8r_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 Finland | 📱 Android (Iran)",
+    "color": "var(--xf-green)"
+  },
+  "afzouni": {
+    "data": {
+      "country": "Europe",
+      "countryCode": "Europe",
+      "device": "iPhone",
+      "deviceFull": "iPhone (North America)",
+      "id": "800361248592232448",
+      "created": "۱۳۹۵/۸/۳۰, ۱۹:۰۲:۴۶",
+      "renamed": 9,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1971108028981088257/HBdu2J5g_400x400.jpg",
+      "riskLabel": "هشدار"
+    },
+    "pillText": "📍 Europe | 📱 iPhone (North America)",
+    "color": "var(--xf-red)"
+  },
+  "ArteshAriamehr": {
+    "data": {
+      "country": "Europe",
+      "countryCode": "Europe",
+      "device": "iPhone",
+      "deviceFull": "iPhone (Europe)",
+      "id": "1573221924926373889",
+      "created": "۱۴۰۱/۷/۱, ۱۱:۳۵:۳۸",
+      "renamed": 2,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1782687008504053760/nsZhbjEc_400x400.jpg",
+      "riskLabel": "احتیاط"
+    },
+    "pillText": "📍 Europe | 📱 iPhone (Europe)",
+    "color": "var(--xf-green)"
+  },
+  "Judithyzd": {
+    "data": {
+      "country": "Germany",
+      "countryCode": "Germany",
+      "device": "iPhone",
+      "deviceFull": "iPhone (United States)",
+      "id": "1112079504426655746",
+      "created": "۱۳۹۸/۱/۱۱, ۰:۱۹:۵۰",
+      "renamed": 3,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1991138311717412864/PtQcWFcW_400x400.jpg",
+      "riskLabel": "هشدار"
+    },
+    "pillText": "📍 Germany | 📱 iPhone (United States)",
+    "color": "var(--xf-red)"
+  },
+  "daryarst": {
+    "data": {
+      "country": "Sweden",
+      "countryCode": "Sweden",
+      "device": "Web",
+      "deviceFull": "Web",
+      "id": "1713871616436789248",
+      "created": "۱۴۰۲/۷/۲۴, ۱۴:۲۷:۰۱",
+      "renamed": 12,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1989049669377232897/V0tdgSyT_400x400.jpg",
+      "riskLabel": "هشدار"
+    },
+    "pillText": "📍 Sweden | 📱 Web",
+    "color": "var(--xf-red)"
+  },
+  "pouriazeraati": {
+    "data": {
+      "country": "Europe",
+      "countryCode": "Europe",
+      "device": "iPhone",
+      "deviceFull": "iPhone (Europe)",
+      "id": "1408312021",
+      "created": "۱۳۹۲/۲/۱۶, ۲۲:۱۰:۵۴",
+      "renamed": 0,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1890160105087221760/dwRpiFo2_400x400.jpg",
+      "riskLabel": "امن"
+    },
+    "pillText": "📍 Europe | 📱 iPhone (Europe)",
+    "color": "var(--xf-green)"
+  },
+  "BearNaghez": {
+    "data": {
+      "country": "North America",
+      "countryCode": "North America",
+      "device": "Android",
+      "deviceFull": "Android (West Asia)",
+      "id": "1960610232716894208",
+      "created": "۱۴۰۴/۶/۵, ۱۱:۱۸:۱۹",
+      "renamed": 1,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1960635491843182592/fi9oFYJz_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 North America | 📱 Android (West Asia)",
+    "color": "var(--xf-green)"
+  },
+  "YoURHAPpi__Ness": {
+    "data": {
+      "country": "Germany",
+      "countryCode": "Germany",
+      "device": "iPhone",
+      "deviceFull": "iPhone (Germany)",
+      "id": "1807352106514358272",
+      "created": "۱۴۰۳/۴/۱۰, ۱۳:۲۵:۱۸",
+      "renamed": 6,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1938885951763140608/20WymI4j_400x400.jpg",
+      "riskLabel": "احتیاط"
+    },
+    "pillText": "📍 Germany | 📱 iPhone (Germany)",
+    "color": "var(--xf-green)"
+  },
+  "6ohlxisK6AaGx5Z": {
+    "data": {
+      "country": "Germany",
+      "countryCode": "Germany",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "1389984802829438976",
+      "created": "۱۴۰۰/۲/۱۵, ۲۱:۱۶:۳۴",
+      "renamed": 0,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1941362402332717056/_jVxYXOR_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 Germany | 📱 Android (Iran)",
+    "color": "var(--xf-green)"
+  },
+  "patriot_apranik": {
+    "data": {
+      "country": "North America",
+      "countryCode": "North America",
+      "device": "iPhone",
+      "deviceFull": "iPhone (North America)",
+      "id": "1720825921047810048",
+      "created": "۱۴۰۲/۸/۱۳, ۱۹:۰۱:۲۸",
+      "renamed": 6,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1929709620487921664/aJVrDyoy_400x400.jpg",
+      "riskLabel": "هشدار"
+    },
+    "pillText": "📍 North America | 📱 iPhone (North America)",
+    "color": "var(--xf-red)"
+  },
+  "crissss_sh": {
+    "data": {
+      "country": "Germany",
+      "countryCode": "Germany",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "1392131718774239234",
+      "created": "۱۴۰۰/۲/۲۱, ۱۹:۲۷:۴۳",
+      "renamed": 1,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1392136379421937666/ky1QUVbH_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 Germany | 📱 Android (Iran)",
+    "color": "var(--xf-green)"
+  },
+  "pesarrrr": {
+    "data": {
+      "country": "United States",
+      "countryCode": "United States",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "1675979674827075585",
+      "created": "۱۴۰۲/۴/۱۳, ۰:۵۸:۱۹",
+      "renamed": 1,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1991702697544998912/kBGKF-b1_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 United States | 📱 Android (Iran)",
+    "color": "var(--xf-green)"
+  },
+  "mobamoz": {
+    "data": {
+      "country": "Germany",
+      "countryCode": "Germany",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "1938136084363313152",
+      "created": "۱۴۰۴/۴/۵, ۱۰:۵۴:۲۱",
+      "renamed": 1,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1941883248994406400/Sq6OUsR1_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 Germany | 📱 Android (Iran)",
+    "color": "var(--xf-green)"
+  },
+  "flamingo_irani2": {
+    "data": {
+      "country": "North America",
+      "countryCode": "North America",
+      "device": "Android",
+      "deviceFull": "Android (North America)",
+      "id": "1907893811398733825",
+      "created": "۱۴۰۴/۱/۱۵, ۰:۰۲:۰۳",
+      "renamed": 1,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1928961282473947136/F0Ma22IB_400x400.jpg",
+      "riskLabel": "احتیاط"
+    },
+    "pillText": "📍 North America | 📱 Android (North America)",
+    "color": "var(--xf-green)"
+  },
+  "taakhertenagh": {
+    "data": {
+      "country": "Oman",
+      "countryCode": "Oman",
+      "device": "iPhone",
+      "deviceFull": "iPhone (United States)",
+      "id": "1203752161424891904",
+      "created": "۱۳۹۸/۹/۱۷, ۲۲:۳۴:۲۸",
+      "renamed": 3,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1489160858810953730/94yPSQfQ_400x400.jpg",
+      "riskLabel": "هشدار"
+    },
+    "pillText": "📍 Oman | 📱 iPhone (United States)",
+    "color": "var(--xf-red)"
+  },
+  "AsgharSepehri": {
+    "data": {
+      "country": "United States",
+      "countryCode": "United States",
+      "device": "iPhone",
+      "deviceFull": "iPhone (United States)",
+      "id": "950267536003747840",
+      "created": "۱۳۹۶/۱۰/۱۸, ۱۰:۵۶:۵۰",
+      "renamed": 0,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/954258635877597184/DKM9_acD_400x400.jpg",
+      "riskLabel": "امن"
+    },
+    "pillText": "📍 United States | 📱 iPhone (United States)",
+    "color": "var(--xf-green)"
+  },
+  "arash_aa64": {
+    "data": {
+      "country": "North America",
+      "countryCode": "North America",
+      "device": "Web",
+      "deviceFull": "Web",
+      "id": "1354522859754938368",
+      "created": "۱۳۹۹/۱۱/۸, ۲۳:۴۳:۳۱",
+      "renamed": 5,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1793002276119781376/vz4J-FkL_400x400.jpg",
+      "riskLabel": "احتیاط"
+    },
+    "pillText": "📍 North America | 📱 Web",
+    "color": "var(--xf-green)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"arash_aa64\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 North America</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Web</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1354522859754938368</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۹/۱۱/۸, ۲۳:۴۳:۳۱</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">5x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1793002276119781376/vz4J-FkL_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "aryoobarzan1402": {
+    "data": {
+      "country": "Japan",
+      "countryCode": "Japan",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "1570791544969461760",
+      "created": "۱۴۰۱/۶/۲۵, ۱۹:۳۸:۱۱",
+      "renamed": 1,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1975749447729463296/pAnOTZrK_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 Japan | 📱 Android (Iran)",
+    "color": "var(--xf-green)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"aryoobarzan1402\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Japan</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1570791544969461760</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۱/۶/۲۵, ۱۹:۳۸:۱۱</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1975749447729463296/pAnOTZrK_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "MansooriAzar": {
+    "data": {
+      "country": "United States",
+      "countryCode": "United States",
+      "device": "Web",
+      "deviceFull": "Web",
+      "id": "810132503688257537",
+      "created": "۱۳۹۵/۹/۲۷, ۱۸:۱۰:۱۵",
+      "renamed": 0,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1915447676113416192/pNplKiWT_400x400.jpg",
+      "riskLabel": "هشدار"
+    },
+    "pillText": "📍 United States | 📱 Web",
     "color": "var(--xf-red)",
-    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۱.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"Teeegra\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 North America</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (North America)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1413224223032631314</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۰/۴/۱۸, ۰:۲۱:۳۲</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">4x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1940933716647239680/gpvkt-ZU_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"MansooriAzar\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United States</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Web</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">810132503688257537</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۵/۹/۲۷, ۱۸:۱۰:۱۵</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1915447676113416192/pNplKiWT_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "hediekimiaee": {
+    "data": {
+      "country": "Germany",
+      "countryCode": "Germany",
+      "device": "iPhone",
+      "deviceFull": "iPhone (Germany)",
+      "id": "1912428248",
+      "created": "۱۳۹۲/۷/۶, ۱:۳۳:۳۴",
+      "renamed": 0,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1844742844994437122/uq2Z8M9F_400x400.jpg",
+      "riskLabel": "امن"
+    },
+    "pillText": "📍 Germany | 📱 iPhone (Germany)",
+    "color": "var(--xf-green)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">امن</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"hediekimiaee\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:5%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Germany</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (Germany)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1912428248</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۲/۷/۶, ۱:۳۳:۳۴</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1844742844994437122/uq2Z8M9F_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "sadeghZibakalam": {
+    "data": {
+      "country": "Italy",
+      "countryCode": "Italy",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "396645388",
+      "created": "۱۳۹۰/۸/۱, ۱۹:۰۴:۳۶",
+      "renamed": 2,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1253191325287165952/rrMwDGxH_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 Italy | 📱 Android (Iran)",
+    "color": "var(--xf-green)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"sadeghZibakalam\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Italy</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">396645388</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۰/۸/۱, ۱۹:۰۴:۳۶</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">2x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1253191325287165952/rrMwDGxH_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "tanha1358": {
+    "data": {
+      "country": "Iran",
+      "countryCode": "Iran",
+      "device": "iPhone",
+      "deviceFull": "iPhone (United States)",
+      "id": "1955011189",
+      "created": "۱۳۹۲/۷/۱۹, ۲۳:۳۶:۳۸",
+      "renamed": 4,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1749499989875740672/K6XUUDMG_400x400.jpg",
+      "riskLabel": "ناهنجاری"
+    },
+    "pillText": "📍 Iran | 📱 iPhone (United States)",
+    "color": "var(--xf-orange)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"tanha1358\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">ناهنجاری</strong><br><span style=\"opacity:0.9\">اتصال مستقیم در ایران غیرممکن است. دلایل: سیم‌کارت سفید، تانلینگ یا شماره ۹۸+.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Iran</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (United States)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1955011189</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۲/۷/۱۹, ۲۳:۳۶:۳۸</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">4x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1749499989875740672/K6XUUDMG_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "alireza48466967": {
+    "data": {
+      "country": "نامشخص",
+      "device": "Web",
+      "deviceFull": "Web",
+      "id": "1206133880480251904",
+      "created": "۱۳۹۸/۹/۲۴, ۱۲:۱۸:۳۷",
+      "renamed": 0,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1669397550745387017/GvXU-ylq_400x400.jpg",
+      "riskLabel": "هشدار"
+    },
+    "pillText": "📱 Web",
+    "color": "var(--xf-red)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"alireza48466967\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Web</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1206133880480251904</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۸/۹/۲۴, ۱۲:۱۸:۳۷</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1669397550745387017/GvXU-ylq_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "Mohammed_Al_Abs": {
+    "data": {
+      "country": "France",
+      "countryCode": "France",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "772451424060014592",
+      "created": "۱۳۹۵/۶/۱۴, ۱۹:۳۹:۰۵",
+      "renamed": 7,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1883189064771280896/tRiwq0uW_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 France | 📱 Android (Iran)",
+    "color": "var(--xf-green)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"Mohammed_Al_Abs\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 France</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">772451424060014592</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۵/۶/۱۴, ۱۹:۳۹:۰۵</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">7x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1883189064771280896/tRiwq0uW_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "amirbadhand": {
+    "data": {
+      "country": "Sweden",
+      "countryCode": "Sweden",
+      "device": "iPhone",
+      "deviceFull": "iPhone (United States)",
+      "id": "1040147081611145216",
+      "created": "۱۳۹۷/۶/۲۲, ۱۲:۲۶:۰۴",
+      "renamed": 2,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": "fa",
+      "avatar": "https://pbs.twimg.com/profile_images/1904688513712349184/PM5ITs6b_400x400.jpg",
+      "riskLabel": "هشدار"
+    },
+    "pillText": "📍 Sweden | 📱 iPhone (United States)",
+    "color": "var(--xf-red)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"amirbadhand\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Sweden</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (United States)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1040147081611145216</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۷/۶/۲۲, ۱۲:۲۶:۰۴</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">زبان</span><span class=\"xf-val\">🗣️ فارسی/عربی</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">2x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1904688513712349184/PM5ITs6b_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "shahryarmirsha1": {
+    "data": {
+      "country": "Netherlands",
+      "countryCode": "Netherlands",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "899284421022502913",
+      "created": "۱۳۹۶/۵/۲۹, ۱۹:۲۸:۰۸",
+      "renamed": 1,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1551002056621703169/AN6vTa9Z_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 Netherlands | 📱 Android (Iran)",
+    "color": "var(--xf-green)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"shahryarmirsha1\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Netherlands</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">899284421022502913</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۶/۵/۲۹, ۱۹:۲۸:۰۸</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1551002056621703169/AN6vTa9Z_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "MansoorBijar": {
+    "data": {
+      "country": "Germany",
+      "countryCode": "Germany",
+      "device": "iPhone",
+      "deviceFull": "iPhone (United States)",
+      "id": "1921660393056817152",
+      "created": "۱۴۰۴/۲/۲۱, ۲۳:۴۵:۴۸",
+      "renamed": 1,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1921661588408262656/yr3aa3Z9_400x400.jpg",
+      "riskLabel": "هشدار"
+    },
+    "pillText": "📍 Germany | 📱 iPhone (United States)",
+    "color": "var(--xf-red)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-red)\">هشدار</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"MansoorBijar\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:90%;background:var(--xf-red)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-red);background:rgba(249, 24, 128, 0.1)\"><strong style=\"color:var(--xf-red)\">سپر فعال</strong><br><span style=\"opacity:0.9\">استفاده از VPN/پروکسی تشخیص داده شد.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Germany</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (United States)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1921660393056817152</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۴۰۴/۲/۲۱, ۲۳:۴۵:۴۸</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1921661588408262656/yr3aa3Z9_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "BBCFarnaz": {
+    "data": {
+      "country": "United Kingdom",
+      "countryCode": "United Kingdom",
+      "device": "iPhone",
+      "deviceFull": "iPhone (United Kingdom)",
+      "id": "50329448",
+      "created": "۱۳۸۸/۴/۳, ۱۹:۳۶:۵۱",
+      "renamed": 2,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1238474315286417409/ohTpujre_400x400.jpg",
+      "riskLabel": "احتیاط"
+    },
+    "pillText": "📍 United Kingdom | 📱 iPhone (United Kingdom)",
+    "color": "var(--xf-green)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"BBCFarnaz\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 United Kingdom</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (United Kingdom)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">50329448</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۸۸/۴/۳, ۱۹:۳۶:۵۱</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">2x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1238474315286417409/ohTpujre_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "HGouldian": {
+    "data": {
+      "country": "Turkey",
+      "countryCode": "Turkey",
+      "device": "Android",
+      "deviceFull": "Android (Iran)",
+      "id": "1130203484048039937",
+      "created": "۱۳۹۸/۲/۳۰, ۰:۳۸:۰۳",
+      "renamed": 0,
+      "isAccurate": false,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1697847886711517184/kXC7jHSz_400x400.jpg",
+      "riskLabel": "طبیعی"
+    },
+    "pillText": "📍 Turkey | 📱 Android (Iran)",
+    "color": "var(--xf-green)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">طبیعی</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"HGouldian\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:15%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">سپر فعال (طبیعی)</strong><br><span style=\"opacity:0.9\">کاربر ایران/غرب آسیا با VPN. رفتار طبیعی.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Turkey</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">Android (Iran)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1130203484048039937</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۸/۲/۳۰, ۰:۳۸:۰۳</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1697847886711517184/kXC7jHSz_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "nafisehkBBC": {
+    "data": {
+      "country": "Lebanon",
+      "countryCode": "Lebanon",
+      "device": "iPhone",
+      "deviceFull": "iPhone (United Kingdom)",
+      "id": "107223327",
+      "created": "۱۳۸۸/۱۱/۲, ۱:۴۲:۲۳",
+      "renamed": 0,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1652942840916221954/nAoTCJpA_400x400.jpg",
+      "riskLabel": "امن"
+    },
+    "pillText": "📍 Lebanon | 📱 iPhone (United Kingdom)",
+    "color": "var(--xf-green)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-green)\">امن</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"nafisehkBBC\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:5%;background:var(--xf-green)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-green);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-green)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Lebanon</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (United Kingdom)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">107223327</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۸۸/۱۱/۲, ۱:۴۲:۲۳</span></div>\n                \n                \n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1652942840916221954/nAoTCJpA_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "ForParastou": {
+    "data": {
+      "country": "Germany",
+      "countryCode": "Germany",
+      "device": "iPhone",
+      "deviceFull": "iPhone (Germany)",
+      "id": "958977956449267712",
+      "created": "۱۳۹۶/۱۱/۱۲, ۱۱:۴۸:۵۶",
+      "renamed": 2,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1638571066204336128/H8vx_-rL_400x400.jpg",
+      "riskLabel": "احتیاط"
+    },
+    "pillText": "📍 Germany | 📱 iPhone (Germany)",
+    "color": "var(--xf-green)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">احتیاط</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"ForParastou\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:40%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(0, 186, 124, 0.1)\"><strong style=\"color:var(--xf-orange)\">اطمینان بالا</strong><br><span style=\"opacity:0.9\">اتصال طبیعی و ارگانیک است.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 Germany</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (Germany)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">958977956449267712</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۶/۱۱/۱۲, ۱۱:۴۸:۵۶</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">2x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1638571066204336128/H8vx_-rL_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
+  },
+  "HS_Soleimani": {
+    "data": {
+      "country": "غرب آسیا",
+      "countryCode": "West Asia",
+      "device": "iPhone",
+      "deviceFull": "iPhone (North America)",
+      "id": "1438386799",
+      "created": "۱۳۹۲/۲/۲۸, ۱۷:۴۵:۰۸",
+      "renamed": 1,
+      "isAccurate": true,
+      "isIdVerified": false,
+      "langCode": null,
+      "avatar": "https://pbs.twimg.com/profile_images/1214969981886181379/Ppkzfty6_400x400.jpg",
+      "riskLabel": "ناهنجاری"
+    },
+    "pillText": "📍 غرب آسیا | 📱 iPhone (North America)",
+    "color": "var(--xf-orange)",
+    "html": "\n            <div class=\"xf-header\">\n                <div style=\"display:flex;align-items:center;\"><span class=\"xf-title\">تحلیلگر پروفایل ۱۳.۰</span><span class=\"xf-badge\" style=\"background:var(--xf-orange)\">ناهنجاری</span></div>\n                <div class=\"xf-retry\" id=\"xf-retry-btn\" title=\"بروزرسانی\" data-user=\"HS_Soleimani\">↻</div>\n            </div>\n            <div class=\"xf-bar-bg\"><div class=\"xf-bar-fill\" style=\"width:70%;background:var(--xf-orange)\"></div></div>\n            <div class=\"xf-status\" style=\"border-right-color:var(--xf-orange);background:rgba(255, 212, 0, 0.1)\"><strong style=\"color:var(--xf-orange)\">ناهنجاری</strong><br><span style=\"opacity:0.9\">اتصال مستقیم در ایران غیرممکن است. دلایل: سیم‌کارت سفید، تانلینگ یا شماره ۹۸+.</span></div>\n            <div class=\"xf-grid\">\n                <div class=\"xf-row\"><span class=\"xf-lbl\">موقعیت</span><span class=\"xf-val\">📍 غرب آسیا</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">دستگاه</span><span class=\"xf-val\">iPhone (North America)</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">شناسه</span><span class=\"xf-val xf-mono\">1438386799</span></div>\n                <div class=\"xf-row\"><span class=\"xf-lbl\">ساخت</span><span class=\"xf-val\">۱۳۹۲/۲/۲۸, ۱۷:۴۵:۰۸</span></div>\n                \n                <div class=\"xf-row\"><span class=\"xf-lbl\" style=\"color:var(--xf-orange)\">تغییر نام</span><span class=\"xf-val\" style=\"color:var(--xf-orange)\">1x</span></div>\n                \n            </div>\n            <div class=\"xf-ftr\"><a href=\"https://pbs.twimg.com/profile_images/1214969981886181379/Ppkzfty6_400x400.jpg\" target=\"_blank\" class=\"xf-btn\">آواتار اصلی</a></div>\n            \n            <div class=\"xf-lang-row\"><span>زبان:</span><span class=\"xf-lang-opt \" id=\"xf-l-auto\">Auto</span><span class=\"xf-lang-opt \" id=\"xf-l-en\">En</span><span class=\"xf-lang-opt xf-lang-active\" id=\"xf-l-fa\">Fa</span></div>\n        \n        "
   }
 }
