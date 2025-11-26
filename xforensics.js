@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         X Profile Forensics (v15.2 Mobile Fix)
+// @name         X Profile Forensics (v15.3)
 // @namespace    http://tampermonkey.net/
-// @version      15.2.0
-// @description  Forensics tool. Fixed the missing "Database" icon in the Mobile Bottom Bar.
+// @version      15.3.0
+// @description  Forensics tool. Moved Mobile Dashboard button to the Top Header (Right Side) for better visibility.
 // @author       https://x.com/yebekhe
 // @match        https://x.com/*
 // @match        https://twitter.com/*
@@ -22,7 +22,7 @@
 
     const TRANSLATIONS = {
         en: {
-            title: "Forensics v15.2",
+            title: "Forensics v15.3",
             menu_btn: "Forensics",
             labels: { location: "Location", device: "Device", id: "Perm ID", created: "Created", renamed: "Renamed", identity: "Identity", lang: "Language", type: "Type" },
             risk: { safe: "SAFE", detected: "DETECTED", anomaly: "ANOMALY", caution: "CAUTION", normal: "NORMAL", verified: "VERIFIED ID" },
@@ -69,7 +69,7 @@
             lang_sel: "Lang:"
         },
         fa: {
-            title: "تحلیلگر پروفایل ۱۵.۲",
+            title: "تحلیلگر پروفایل ۱۵.۳",
             menu_btn: "جرم‌شناسی",
             labels: { location: "موقعیت", device: "دستگاه", id: "شناسه", created: "ساخت", renamed: "تغییر نام", identity: "هویت", lang: "زبان", type: "نوع" },
             risk: { safe: "امن", detected: "هشدار", anomaly: "ناهنجاری", caution: "احتیاط", normal: "طبیعی", verified: "تایید شده" },
@@ -121,11 +121,12 @@
 
     // --- 2. STORAGE ---
     const STORAGE_KEY = "xf_db_v1";
+    const GITHUB_REPO_ISSUES = "https://github.com/itsyebekhe/xforensics/issues/new";
     const CLOUD_DB_URL = "https://raw.githubusercontent.com/itsyebekhe/xforensics/main/database.json";
-
+    
     let db = {};
-    try {
-        const saved = localStorage.getItem(STORAGE_KEY);
+    try { 
+        const saved = localStorage.getItem(STORAGE_KEY); 
         if (saved) {
             db = JSON.parse(saved);
             let cleaned = false;
@@ -151,7 +152,7 @@
 
     const STYLES = `
         :root { --xf-bg: rgba(0,0,0,0.9); --xf-border: rgba(255,255,255,0.15); --xf-blue: #1d9bf0; --xf-green: #00ba7c; --xf-red: #f91880; --xf-orange: #ffd400; --xf-purple: #794BC4; --xf-text: #e7e9ea; --xf-dim: #71767b; }
-
+        
         #xf-pill { display: inline-flex; align-items: center; background: rgba(255,255,255,0.05); border: 1px solid var(--xf-border); border-radius: 99px; padding: 4px 12px; margin-right: 12px; margin-bottom: 4px; cursor: pointer; font-family: ${FONT_STACK}; font-size: 13px; user-select: none; direction: ltr; }
         #xf-pill:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.3); }
         .xf-dot { width: 8px; height: 8px; border-radius: 50%; margin-right: 8px; box-shadow: 0 0 6px currentColor; animation: xf-pulse 2s infinite; }
@@ -159,16 +160,17 @@
         .xf-mini-pill:hover { background: rgba(29,155,240,0.15); color: var(--xf-blue); border-color: var(--xf-blue); }
         .xf-mini-pill.xf-loaded { background: transparent; border: none; padding: 0 4px; font-weight: bold; }
         @keyframes xf-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-
-        /* Native Menu Item */
+        
+        /* Native Menu Item (Desktop) */
         .xf-menu-item { display: flex; align-items: center; padding: 12px; cursor: pointer; transition: 0.2s; border-radius: 99px; }
         .xf-menu-item:hover { background: rgba(239, 243, 244, 0.1); }
         .xf-menu-icon { width: 26px; height: 26px; margin-right: 20px; fill: currentColor; }
         .xf-menu-text { font-size: 20px; font-weight: 700; font-family: ${FONT_STACK}; color: var(--xf-text); }
-
-        /* Mobile Tab (Improved) */
-        #xf-mob-tab { display: flex; flex-grow: 1; justify-content: center; align-items: center; height: 100%; cursor: pointer; }
-        .xf-mob-icon { width: 24px; height: 24px; fill: var(--xf-blue); } /* Blue color for visibility */
+        
+        /* Top Bar Icon (Mobile) */
+        #xf-mob-top-btn { display: flex; align-items: center; justify-content: center; margin-left: auto; margin-right: 10px; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; transition: 0.2s; }
+        #xf-mob-top-btn:hover { background: rgba(29,155,240,0.15); }
+        .xf-mob-icon { width: 22px; height: 22px; fill: var(--xf-text); }
 
         /* Dashboard */
         #xf-dash-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.8); z-index: 10001; display: none; align-items: center; justify-content: center; backdrop-filter: blur(8px); direction: ${IS_RTL?'rtl':'ltr'}; }
@@ -182,7 +184,7 @@
         .xf-btn-purple { background: var(--xf-purple); color: #fff; } .xf-btn-purple:hover { background: #5e35a3; }
         .xf-btn-orange { background: var(--xf-orange); color: #000; } .xf-btn-orange:hover { background: #d4b100; }
         .xf-btn-red { background: rgba(249, 24, 128, 0.2); color: var(--xf-red); border: 1px solid var(--xf-red); } .xf-btn-red:hover { background: rgba(249, 24, 128, 0.3); }
-
+        
         /* User List */
         #xf-user-list { flex: 1; overflow-y: auto; margin: 10px 0; border: 1px solid var(--xf-border); border-radius: 8px; padding: 5px; background: rgba(255,255,255,0.03); min-height: 150px; }
         .xf-user-row { display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid var(--xf-border); cursor: pointer; transition: background 0.2s; font-size: 13px; }
@@ -230,7 +232,7 @@
     const IS_MOBILE = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth < 768;
     const SOURCE_REGEX = /^(.*?)\s+(App\s?Store|Google\s?Play|Play\s?Store|Android\s?App|iOS\s?App)$/i;
     const ARABIC_SCRIPT_REGEX = /[\u0600-\u06FF]/;
-
+    
     const COUNTRY_MAP={AF:"Afghanistan",AL:"Albania",DZ:"Algeria",AD:"Andorra",AO:"Angola",AR:"Argentina",AM:"Armenia",AU:"Australia",AT:"Austria",AZ:"Azerbaijan",BS:"Bahamas",BH:"Bahrain",BD:"Bangladesh",BB:"Barbados",BY:"Belarus",BE:"Belgium",BZ:"Belize",BJ:"Benin",BT:"Bhutan",BO:"Bolivia",BA:"Bosnia",BW:"Botswana",BR:"Brazil",BG:"Bulgaria",BF:"Burkina Faso",BI:"Burundi",KH:"Cambodia",CM:"Cameroon",CA:"Canada",CL:"Chile",CN:"China",CO:"Colombia",CR:"Costa Rica",HR:"Croatia",CU:"Cuba",CY:"Cyprus",CZ:"Czechia",DK:"Denmark",DO:"Dominican Republic",EC:"Ecuador",EG:"Egypt",SV:"El Salvador",EE:"Estonia",ET:"Ethiopia",FI:"Finland",FR:"France",GE:"Georgia",DE:"Germany",GH:"Ghana",GR:"Greece",GT:"Guatemala",HN:"Honduras",HU:"Hungary",IS:"Iceland",IN:"India",ID:"Indonesia",IR:"Iran",IQ:"Iraq",IE:"Ireland",IL:"Israel",IT:"Italy",JM:"Jamaica",JP:"Japan",JO:"Jordan",KZ:"Kazakhstan",KE:"Kenya",KW:"Kuwait",LV:"Latvia",LB:"Lebanon",LY:"Libya",LT:"Lithuania",LU:"Luxembourg",MG:"Madagascar",MY:"Malaysia",MV:"Maldives",MX:"Mexico",MC:"Monaco",MA:"Morocco",NP:"Nepal",NL:"Netherlands",NZ:"New Zealand",NG:"Nigeria",NO:"Norway",OM:"Oman",PK:"Pakistan",PA:"Panama",PY:"Paraguay",PE:"Peru",PH:"Philippines",PL:"Poland",PT:"Portugal",QA:"Qatar",RO:"Romania",RU:"Russia",SA:"Saudi Arabia",SN:"Senegal",RS:"Serbia",SG:"Singapore",SK:"Slovakia",SI:"Slovenia",ZA:"South Africa",KR:"South Korea",ES:"Spain",LK:"Sri Lanka",SE:"Sweden",CH:"Switzerland",TW:"Taiwan",TH:"Thailand",TN:"Tunisia",TR:"Turkey",UA:"Ukraine",AE:"United Arab Emirates",GB:"United Kingdom",US:"United States",UY:"Uruguay",VE:"Venezuela",VN:"Vietnam",YE:"Yemen",ZW:"Zimbabwe"};
 
     let lastUrl = location.href;
@@ -251,12 +253,13 @@
 
     // --- DASHBOARD UI ---
     function injectNativeMenu() {
-        if (document.getElementById('xf-menu-btn') || document.getElementById('xf-mob-tab')) return;
+        if (document.getElementById('xf-menu-btn') || document.getElementById('xf-mob-top-btn')) return;
 
         if (!IS_MOBILE) {
+            // Desktop Sidebar
             const nav = document.querySelector('nav[aria-label="Primary"]');
             if (!nav) return;
-
+            
             const item = document.createElement('div');
             item.id = "xf-menu-btn";
             item.className = "xf-menu-item";
@@ -265,18 +268,42 @@
                 <span class="xf-menu-text">${TEXT.menu_btn}</span>
             `;
             item.onclick = showDashboard;
-
+            
             const more = nav.querySelector('[data-testid="AppTabBar_More_Menu"]');
             if (more) more.parentNode.insertBefore(item, more);
             else nav.appendChild(item);
         } else {
-            const bottomBar = document.querySelector('[data-testid="AppTabBar"] [role="tablist"]');
-            if (!bottomBar) return;
-            const tab = document.createElement('div');
-            tab.id = "xf-mob-tab";
-            tab.innerHTML = `<svg viewBox="0 0 24 24" class="xf-mob-icon"><path d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z"></path></svg>`;
-            tab.onclick = showDashboard;
-            bottomBar.appendChild(tab);
+            // Mobile Top Bar (Right Side)
+            const topBar = document.querySelector('[data-testid="TopNavBar"]');
+            if (!topBar) return;
+            
+            // Find container that holds right-side items (often has justify-content-end or similar)
+            // Or just inject absolute right
+            
+            const btn = document.createElement('div');
+            btn.id = 'xf-mob-top-btn';
+            btn.innerHTML = `<svg viewBox="0 0 24 24" class="xf-mob-icon" style="fill:var(--xf-text)"><path d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z"></path></svg>`;
+            btn.onclick = showDashboard;
+
+            // Try to append to the inner container if possible, else absolute
+            // Usually the top bar has 2 or 3 children. Left (Avatar), Center (Logo), Right (Settings)
+            // We want to be in the Right container.
+            
+            // Simple Append + Flex adjustment
+            if (topBar.children.length > 0) {
+                const rightSide = topBar.children[0].lastElementChild; 
+                if (rightSide) {
+                   // Insert before existing right-side items or append
+                   rightSide.insertBefore(btn, rightSide.firstChild);
+                   return;
+                }
+            }
+            
+            // Fallback
+            btn.style.position = 'absolute';
+            btn.style.right = '50px'; // Left of the settings icon usually
+            btn.style.top = '10px';
+            topBar.appendChild(btn);
         }
     }
 
@@ -296,12 +323,12 @@
         const listContainer = document.getElementById('xf-user-list');
         const paginationContainer = document.getElementById('xf-pagination');
         if (!listContainer) return;
-
+        
         listContainer.innerHTML = '';
         const locFilter = document.getElementById("xf-filter-loc").value.toLowerCase();
         const riskFilter = document.getElementById("xf-filter-risk").value;
 
-        const allKeys = Object.keys(db).reverse();
+        const allKeys = Object.keys(db).reverse(); 
         const filteredKeys = [];
 
         for (const user of allKeys) {
@@ -314,7 +341,7 @@
 
         const totalPages = Math.ceil(filteredKeys.length / ITEMS_PER_PAGE) || 1;
         if (currentPage > totalPages) currentPage = 1;
-
+        
         const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
         const endIndex = startIndex + ITEMS_PER_PAGE;
         const pageItems = filteredKeys.slice(startIndex, endIndex);
@@ -345,14 +372,14 @@
         currentPage = 1;
         const count = Object.keys(db).length;
         const overlay = document.getElementById("xf-dash-overlay");
-
+        
         overlay.innerHTML = `
             <div id="xf-dash-box">
                 <div class="xf-dash-title">${TEXT.dashboard.title}</div>
                 <div style="font-size:12px;color:#71767b;margin-bottom:10px;">${TEXT.dashboard.count.replace("{n}", count)}</div>
-
+                
                 <input id="xf-filter-loc" class="xf-input" placeholder="${TEXT.dashboard.filter_loc}">
-
+                
                 <select id="xf-filter-risk" class="xf-input">
                     <option value="ALL">${TEXT.dashboard.opt_all}</option>
                     <option value="${TEXT.risk.anomaly}">${TEXT.risk.anomaly}</option>
@@ -375,13 +402,13 @@
                 </div>
                 <button id="xf-btn-csv" class="xf-dash-btn xf-btn-blue" style="background:transparent;border:1px solid var(--xf-blue);color:var(--xf-blue)">${TEXT.dashboard.btn_export}</button>
                 <button id="xf-btn-clear" class="xf-dash-btn xf-btn-red">${TEXT.dashboard.btn_clear}</button>
-
+                
                 <div id="xf-dash-close-btn" style="margin-top:15px;text-align:center;font-size:12px;cursor:pointer;color:#71767b;">${TEXT.btn.close}</div>
             </div>
         `;
-
+        
         overlay.style.display = "flex";
-
+        
         document.getElementById("xf-filter-loc").oninput = () => { currentPage = 1; renderUserList(db); };
         document.getElementById("xf-filter-risk").onchange = () => { currentPage = 1; renderUserList(db); };
         document.getElementById("xf-btn-backup").onclick = backupJSON;
@@ -391,10 +418,11 @@
         document.getElementById("xf-btn-csv").onclick = exportCSV;
         document.getElementById("xf-btn-clear").onclick = clearCache;
         document.getElementById("xf-dash-close-btn").onclick = () => { overlay.style.display = "none"; };
-
+        
         renderUserList(db);
     }
 
+    // --- CLOUD UPDATE ---
     function loadFromCloud() {
         GM_xmlhttpRequest({
             method: "GET", url: CLOUD_DB_URL,
@@ -413,6 +441,7 @@
         });
     }
 
+    // --- CONTRIBUTION LOGIC ---
     function contributeData() {
         const count = Object.keys(db).length;
         if (count === 0) return alert("No data to contribute.");
@@ -420,8 +449,7 @@
         const link = document.createElement("a"); link.href = URL.createObjectURL(blob); link.download = `contribution.json`;
         document.body.appendChild(link); link.click(); document.body.removeChild(link);
         alert(TEXT.dashboard.contrib_info);
-        const encodedBody = encodeURIComponent(`### Community Database Contribution\n\n**User Count:** ${count}\n\n**Instructions:**\nI have attached my \`contribution.json\` file below by dragging and dropping it into this text box.`);
-        const issueUrl = `${GITHUB_REPO_ISSUES}?title=Database+Contribution+(${count}+Users)&body=${encodedBody}`;
+        const issueUrl = `${GITHUB_REPO_ISSUES}?title=Database+Contribution+(${count}+Users)`;
         window.open(issueUrl, '_blank');
     }
 
@@ -510,12 +538,12 @@
         const isFarsi = data.langCode === 'fa';
 
         if (!data.isAccurate) {
-            if (isTargetDev) {
+            if (isTargetDev) { 
                 label = TEXT.risk.normal; pct = "15%"; title = TEXT.status.shield_norm; desc = TEXT.status.shield_norm_desc;
-            } else {
+            } else { 
                 color = "var(--xf-red)"; label = TEXT.risk.detected; pct = "90%"; title = TEXT.status.shield; desc = TEXT.status.shield_desc; bg = "rgba(249, 24, 128, 0.1)";
             }
-        } else if (isTargetLoc && data.isAccurate) {
+        } else if (isTargetLoc && data.isAccurate) { 
             color = "var(--xf-orange)"; label = TEXT.risk.anomaly; pct = "70%"; bg = "rgba(255, 212, 0, 0.1)";
             if (data.countryCode === "West Asia" && isFarsi) { title = TEXT.status.hidden_anomaly; desc = TEXT.status.hidden_anomaly_desc; }
             else { title = TEXT.status.anomaly; desc = TEXT.status.anomaly_desc; }
@@ -523,7 +551,7 @@
 
         if (data.renamed > 0 && label === TEXT.risk.safe) { color = "var(--xf-orange)"; label = TEXT.risk.caution; pct = "40%"; }
         if (data.isIdVerified) { pct = "0%"; label = TEXT.risk.verified; color = "var(--xf-blue)"; }
-
+        
         data.riskLabel = label;
 
         const langHtml = `
@@ -556,7 +584,6 @@
         container.querySelector('#xf-l-auto').onclick = () => setLang('auto');
         container.querySelector('#xf-l-en').onclick = () => setLang('en');
         container.querySelector('#xf-l-fa').onclick = () => setLang('fa');
-
         const retryBtn = container.querySelector('#xf-retry-btn');
         if(retryBtn) {
             retryBtn.onclick = async (e) => {
@@ -613,7 +640,7 @@
             if (match) {
                 const region = match[1].trim(); const type = match[2].toLowerCase(); let tech = TEXT.labels.device;
                 if (type.includes("app") || type.includes("ios")) tech = "iPhone"; if (type.includes("play") || type.includes("android")) tech = "Android";
-                devShort = tech; devFull = `${tech} (${region})`;
+                devShort = tech; devFull = `${tech} (${region})`; 
             } else if (IS_MOBILE && sourceRaw !== TEXT.values.unknown) devShort = TEXT.labels.device;
 
             const rawCountry = about.account_based_in;
