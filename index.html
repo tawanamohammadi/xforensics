@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Forensics | رصدخانه ناهنجاری‌ها</title>
+    <meta name="description" content="لیست حساب‌های کاربری توییتر با الگوی اتصال غیرعادی از ایران.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fonts -->
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/misc/Farsi-Digits/font-face.css" rel="stylesheet" type="text/css" />
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Vazirmatn', 'sans-serif'],
+                    },
+                    colors: {
+                        slate: { 850: '#151f32', 950: '#020617' }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body { font-family: 'Vazirmatn', sans-serif; }
+        .dir-ltr { direction: ltr; text-align: left; }
+        .loader {
+            border: 3px solid rgba(255,255,255,0.1);
+            border-radius: 50%;
+            border-top: 3px solid #3b82f6;
+            width: 24px; height: 24px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200 min-h-screen flex flex-col">
+
+    <!-- Navbar -->
+    <nav class="border-b border-slate-800 bg-slate-900/50 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-700 rounded-lg flex items-center justify-center font-bold text-white">X</div>
+                    <span class="font-bold text-lg tracking-tight">Forensics Cloud</span>
+                </div>
+                <div>
+                    <a href="https://github.com/itsyebekhe/xforensics" target="_blank" class="text-sm text-slate-400 hover:text-white transition-colors flex items-center gap-2">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 py-12">
+        
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <h1 class="text-3xl md:text-5xl font-black text-white mb-4">
+                رصدخانه <span class="text-red-500">ناهنجاری‌های</span> توییتر
+            </h1>
+            <p class="text-slate-400 text-lg max-w-2xl mx-auto leading-relaxed">
+                پایگاه داده زنده از حساب‌های کاربری که با موقعیت «ایران» یا «غرب آسیا» اما بدون استفاده از فیلترشکن (Direct Access) به توییتر متصل هستند.
+            </p>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div id="loading" class="flex justify-center py-20">
+            <div class="loader w-12 h-12 border-4"></div>
+        </div>
+
+        <!-- Content (Hidden until loaded) -->
+        <div id="app-content" class="hidden">
+            
+            <!-- Stats Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
+                <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800 relative overflow-hidden">
+                    <div class="relative z-10">
+                        <div class="text-xs text-slate-500 font-bold mb-1">مجموع ناهنجاری‌ها</div>
+                        <div class="text-3xl font-black text-white" id="stat-total">0</div>
+                    </div>
+                    <div class="absolute -left-2 -bottom-4 text-slate-800/50"><svg class="w-20 h-20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg></div>
+                </div>
+                <div class="bg-green-950/30 p-5 rounded-2xl border border-green-900/50">
+                    <div class="text-xs text-green-400 font-bold mb-1">دستگاه اندروید</div>
+                    <div class="flex items-baseline gap-2">
+                        <div class="text-3xl font-black text-green-400" id="stat-android">0</div>
+                        <div class="text-xs text-green-600" id="stat-android-pct">0%</div>
+                    </div>
+                    <div class="w-full bg-green-900/50 h-1.5 rounded-full mt-3 overflow-hidden"><div id="bar-android" class="bg-green-500 h-full rounded-full" style="width: 0%"></div></div>
+                </div>
+                <div class="bg-blue-950/30 p-5 rounded-2xl border border-blue-900/50">
+                    <div class="text-xs text-blue-400 font-bold mb-1">دستگاه آیفون</div>
+                    <div class="flex items-baseline gap-2">
+                        <div class="text-3xl font-black text-blue-400" id="stat-iphone">0</div>
+                        <div class="text-xs text-blue-600" id="stat-iphone-pct">0%</div>
+                    </div>
+                    <div class="w-full bg-blue-900/50 h-1.5 rounded-full mt-3 overflow-hidden"><div id="bar-iphone" class="bg-blue-500 h-full rounded-full" style="width: 0%"></div></div>
+                </div>
+            </div>
+
+            <!-- Toolbar -->
+            <div class="flex flex-col lg:flex-row gap-4 mb-8 bg-slate-900 p-4 rounded-2xl border border-slate-800">
+                <div class="relative flex-grow">
+                    <input type="text" id="search-input" placeholder="جستجو (نام کاربری، ID...)" class="w-full bg-slate-950 pl-10 pr-4 py-3 rounded-xl border border-slate-800 focus:border-blue-500 focus:outline-none transition-colors text-sm text-white">
+                    <div class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500"><svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg></div>
+                </div>
+                
+                <select id="sort-select" class="bg-slate-950 text-sm font-bold text-white border border-slate-800 rounded-xl px-4 py-3 outline-none cursor-pointer">
+                    <option value="newest">جدیدترین (تاریخ ساخت)</option>
+                    <option value="oldest">قدیمی‌ترین (تاریخ ساخت)</option>
+                </select>
+
+                <button onclick="exportCSV()" class="flex items-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-xl text-xs font-bold transition-colors shadow-lg shadow-green-900/20 whitespace-nowrap">
+                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                    دانلود CSV
+                </button>
+            </div>
+
+            <!-- Results Grid -->
+            <div id="results-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Cards injected via JS -->
+            </div>
+
+            <!-- Pagination -->
+            <div id="pagination" class="flex justify-center items-center gap-4 mt-12 text-sm text-slate-400"></div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-20 text-center text-xs text-slate-500 max-w-3xl mx-auto border-t border-slate-800 pt-8 leading-6">
+            <p class="mb-2 font-bold text-slate-300">⚠️ سلب مسئولیت حقوقی و فنی</p>
+            <p>این اطلاعات صرفاً بر اساس داده‌های عمومی (Public API) شبکه اجتماعی ایکس استخراج شده است. وجود نام یک حساب در این لیست لزوماً به معنای وابستگی سازمانی نیست، اما نشان‌دهنده یک الگوی اتصال غیرعادی (اتصال مستقیم از ایران) است که می‌تواند ناشی از سیم‌کارت‌های خاص یا تانلینگ باشد.</p>
+        </div>
+    </main>
+
+    <script>
+        // CONFIGURATION
+        // Change this URL to point to your raw JSON file on GitHub
+        const DB_URL = "https://raw.githubusercontent.com/itsyebekhe/xforensics/main/database.json";
+        
+        let allData = [];
+        let filteredData = [];
+        let currentPage = 1;
+        const itemsPerPage = 30;
+
+        // --- FETCH DATA ---
+        async function init() {
+            try {
+                // Add cache buster
+                const response = await fetch(`${DB_URL}?t=${Date.now()}`);
+                const json = await response.json();
+                processData(json);
+                document.getElementById('loading').classList.add('hidden');
+                document.getElementById('app-content').classList.remove('hidden');
+            } catch (error) {
+                console.error("Error loading database:", error);
+                document.getElementById('loading').innerHTML = `<p class="text-red-500">خطا در دریافت دیتابیس. لطفا بعدا تلاش کنید.</p>`;
+            }
+        }
+
+        // --- PROCESS DATA (Filter & Stats) ---
+        function processData(rawData) {
+            allData = [];
+            let stats = { total: 0, android: 0, iphone: 0 };
+
+            for (const [username, info] of Object.entries(rawData)) {
+                const d = info.data;
+                if (!d) continue;
+
+                // Logic: Location = Iran/West Asia AND Accurate = true
+                const loc = d.countryCode || "";
+                const isAccurate = d.isAccurate || false;
+                const isTarget = (loc === "Iran" || loc === "West Asia");
+
+                if (isTarget && isAccurate === true) {
+                    // Calculate Stats
+                    stats.total++;
+                    const dev = d.device || "";
+                    if (dev.toLowerCase().includes("android")) stats.android++;
+                    else if (dev.toLowerCase().includes("iphone")) stats.iphone++;
+
+                    allData.push({
+                        username: username,
+                        id: d.id || "0",
+                        avatar: d.avatar || "",
+                        device: d.device || "Unknown",
+                        location: d.country || loc,
+                        created: d.created || "-",
+                        raw_created: new Date(d.created).getTime() || 0
+                    });
+                }
+            }
+
+            // Update Stats UI
+            document.getElementById('stat-total').textContent = stats.total.toLocaleString();
+            document.getElementById('stat-android').textContent = stats.android.toLocaleString();
+            document.getElementById('stat-iphone').textContent = stats.iphone.toLocaleString();
+            
+            const androidPct = stats.total ? Math.round((stats.android / stats.total) * 100) : 0;
+            const iphonePct = stats.total ? Math.round((stats.iphone / stats.total) * 100) : 0;
+            
+            document.getElementById('stat-android-pct').textContent = androidPct + '%';
+            document.getElementById('bar-android').style.width = androidPct + '%';
+            document.getElementById('stat-iphone-pct').textContent = iphonePct + '%';
+            document.getElementById('bar-iphone').style.width = iphonePct + '%';
+
+            // Initial Filter
+            filterAndRender();
+        }
+
+        // --- FILTER & SORT ---
+        function filterAndRender() {
+            const query = document.getElementById('search-input').value.toLowerCase();
+            const sort = document.getElementById('sort-select').value;
+
+            // Filter
+            filteredData = allData.filter(item => 
+                item.username.toLowerCase().includes(query) || 
+                item.id.includes(query)
+            );
+
+            // Sort (ID based = Newest)
+            filteredData.sort((a, b) => {
+                const idA = a.id;
+                const idB = b.id;
+                // String comparison for large IDs works correctly for length then value
+                if (sort === 'oldest') {
+                    return idA.length - idB.length || idA.localeCompare(idB);
+                } else {
+                    return idB.length - idA.length || idB.localeCompare(idA);
+                }
+            });
+
+            currentPage = 1;
+            renderPage();
+        }
+
+        // --- RENDER GRID ---
+        function renderPage() {
+            const container = document.getElementById('results-grid');
+            container.innerHTML = "";
+
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageItems = filteredData.slice(start, end);
+
+            if (pageItems.length === 0) {
+                container.innerHTML = `<div class="col-span-full text-center py-12 text-slate-500 border border-dashed border-slate-800 rounded-2xl">موردی یافت نشد.</div>`;
+                renderPagination(0);
+                return;
+            }
+
+            pageItems.forEach(user => {
+                const avatar = user.avatar || "https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png";
+                const lensUrl = `https://lens.google.com/upload?url=${encodeURIComponent(avatar)}`;
+                
+                const card = `
+                <div class="bg-slate-900 rounded-2xl p-5 border border-slate-800 hover:border-slate-600 transition-all flex flex-col gap-4 group relative">
+                    <div class="flex items-start gap-4">
+                        <img src="${avatar}" class="w-14 h-14 rounded-full object-cover border-2 border-orange-500/50 p-0.5" loading="lazy" onerror="this.src='https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png'">
+                        <div class="flex-1 min-w-0 text-right">
+                            <div class="flex justify-between items-start">
+                                <a href="https://x.com/${user.username}" target="_blank" class="text-lg font-bold text-white hover:text-blue-400 truncate dir-ltr">@${user.username}</a>
+                                <span class="bg-orange-900/30 text-orange-400 text-[10px] px-2 py-1 rounded-full font-bold border border-orange-500/20">ناهنجاری</span>
+                            </div>
+                            <div class="mt-2 space-y-1 text-xs text-slate-400">
+                                <div class="flex items-center gap-1 justify-end"><span class="font-mono select-all text-slate-300">${user.id}</span> <span class="opacity-50">:ID</span></div>
+                                <div class="flex items-center gap-1 justify-end"><span class="dir-ltr text-slate-300">${user.created}</span> <span class="opacity-50">:ساخت</span></div>
+                                <div class="flex items-center gap-1 justify-end"><span class="dir-ltr text-slate-300">${user.device}</span> <span class="opacity-50">:دستگاه</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex border-t border-slate-800 pt-3 gap-2">
+                        <a href="https://web.archive.org/web/*/twitter.com/${user.username}" target="_blank" title="Archive" class="flex-1 py-2 bg-slate-950 hover:bg-slate-800 text-slate-500 hover:text-blue-400 transition-colors rounded-lg flex items-center justify-center"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg></a>
+                        <a href="https://www.google.com/search?q=%22${user.username}%22+site:twitter.com" target="_blank" title="Google" class="flex-1 py-2 bg-slate-950 hover:bg-slate-800 text-slate-500 hover:text-green-400 transition-colors rounded-lg flex items-center justify-center"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg></a>
+                        <a href="${lensUrl}" target="_blank" title="Lens" class="flex-1 py-2 bg-slate-950 hover:bg-slate-800 text-slate-500 hover:text-orange-400 transition-colors rounded-lg flex items-center justify-center"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" /></svg></a>
+                    </div>
+                </div>`;
+                container.innerHTML += card;
+            });
+
+            renderPagination(Math.ceil(filteredData.length / itemsPerPage));
+        }
+
+        // --- PAGINATION ---
+        function renderPagination(totalPages) {
+            const el = document.getElementById('pagination');
+            if (totalPages <= 1) { el.innerHTML = ''; return; }
+
+            let html = `
+                <button onclick="changePage(${currentPage - 1})" ${currentPage === 1 ? 'disabled class="opacity-50 cursor-not-allowed px-4 py-2 bg-slate-800 rounded-lg"' : 'class="px-4 py-2 bg-slate-800 hover:bg-blue-600 text-white rounded-lg transition-colors"'}>&rarr; قبلی</button>
+                <span class="mx-4 font-mono">صفحه ${currentPage} از ${totalPages}</span>
+                <button onclick="changePage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled class="opacity-50 cursor-not-allowed px-4 py-2 bg-slate-800 rounded-lg"' : 'class="px-4 py-2 bg-slate-800 hover:bg-blue-600 text-white rounded-lg transition-colors"'}>بعدی &larr;</button>
+            `;
+            el.innerHTML = html;
+        }
+
+        window.changePage = (newPage) => {
+            currentPage = newPage;
+            renderPage();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // --- CSV EXPORT ---
+        window.exportCSV = () => {
+            if (filteredData.length === 0) return alert("داده‌ای موجود نیست.");
+            
+            let csv = "\uFEFFUsername,ID,Location,Device,Created,Link\n";
+            filteredData.forEach(u => {
+                csv += `${u.username},${u.id},${u.location},"${u.device}",${u.created},https://x.com/${u.username}\n`;
+            });
+
+            const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+            const link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = `xforensics_export_${Date.now()}.csv`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Events
+        document.getElementById('search-input').addEventListener('input', filterAndRender);
+        document.getElementById('sort-select').addEventListener('change', filterAndRender);
+
+        // Start
+        init();
+
+    </script>
+</body>
+</html>
