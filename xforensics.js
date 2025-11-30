@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         X Profile Forensics (v18.3 Auto-Detect & Privacy)
+// @name         X Profile Forensics (v18.3)
 // @namespace    http://tampermonkey.net/
 // @version      18.3.0
 // @description  Forensics tool. Added: Auto-detection of pre-blocked users & Privacy mode for Exports (excludes block status).
-// @author       A Pleasant Experience
+// @author       https://x.com/yebekhe
 // @match        https://x.com/*
 // @match        https://twitter.com/*
 // @connect      raw.githubusercontent.com
